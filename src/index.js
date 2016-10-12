@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommentBox from './CommentBox';
+import StockState from './StockState';
 import './index.css';
 
 ReactDOM.render(
-  <CommentBox />,
+  <StockState />,
   document.getElementById('root')
 );
